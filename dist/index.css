@@ -11556,13 +11556,23 @@ linear-gradient(0deg, #FFFFFF, #FFFFFF); */
     min-height: 466px;
     border-radius: 34px;
   }
+.rev-card__body {
+    width: 94%;
+    height: 96%;
+    border-radius: 26px;
+    padding: 14px 16px 24px 14px;
+    display: flex;
+    flex-direction: column;
+}
 
   .rev-card__body {
     width: 94%;
     height: 96%;
     border-radius: 26px;
-        padding: 14px 16px 42px 14px;
+         padding: 14px 16px 15px 14px;   
   }
+
+
   .rev-card__body::after {
     left: 21px;
     top: 69px;
@@ -11636,10 +11646,11 @@ line-height: 22px;
     -webkit-column-gap: 9px;
        -moz-column-gap: 9px;
             column-gap: 9px;
-    margin: 17px 0 0 0;
+    margin: auto 0 0 0;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+
 }
 .rev-card__foto {
     width: 75px;
