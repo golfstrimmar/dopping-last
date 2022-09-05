@@ -13215,6 +13215,10 @@ padding: 26px 20px 0;
   }
 }
 @media (max-width: 767px) {
+  .about-title__decor-lg{
+    display: none!important;
+  }
+
   .footer__pay {
     display: none;
   }
@@ -13442,4 +13446,5 @@ padding: 26px 20px 0;
   width: 125px;
   height: 342px;
 }
+
 }
