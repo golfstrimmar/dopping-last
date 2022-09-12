@@ -13461,10 +13461,10 @@ padding: 26px 20px 0;
   border-radius: 10px;
   overflow: hidden;
 }
-.double .slider__wrapper{
-/* overflow: hidden; */
-}
- .sdouble2{
+/* .double .slider__wrapper{
+overflow: hidden;
+} */
+ .sdouble2 {
   max-width: 115px;
 }
 
@@ -13474,13 +13474,14 @@ padding: 26px 20px 0;
 .sdouble2__inner{
   max-width: 365px;
       margin: 0 auto;
+      overflow: hidden;
+      padding: 0 0 0 125px;
 }
-.sdouble2__inner,.sdouble1__body{
+.sdouble1__body{
   overflow: hidden;
 }
 .sdouble2 .swiper-slide {
 opacity: 0.25;
-transition: all .5s;
 
 }
 .sdouble2 .swiper-slide.swiper-slide-active{
