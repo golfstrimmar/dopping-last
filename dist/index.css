@@ -13442,6 +13442,9 @@ linear-gradient(0deg, #FFFFFF, #FFFFFF); */
   }
 }
 /* ====================================================== */
+.about--double{
+margin: 182px 0 364px;
+}
 .double {
   position: relative;
 }
@@ -13559,12 +13562,18 @@ overflow: hidden;
   .sdouble2__body .slider-arrow-next {
   right: 150px;
 }
+.about--double {
+ margin: 68px 0 282px;
+}
 }
 
 
 
 
 @media (max-width: 767px) {
+  .about--double {
+ margin: 61px 0 165px;
+}
   .double {
     margin: 0 auto;
     max-width: 500px;
