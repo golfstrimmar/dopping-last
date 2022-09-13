@@ -13892,7 +13892,7 @@ min-height: 699px;
     display: flex;
     justify-content: center;
     position: absolute;
-   bottom: -84px !important;
+   bottom: -19px !important;
     /* left: 50%;
     transform: translate(-50%); */
 
@@ -13932,33 +13932,33 @@ min-height: 699px;
   height: 272px;
 }
 .sdouble1__item {
-  min-height: 650px;
+  min-height: 631px;
 }
 .about .about__button {
- top: 445px;
+ top: 412px;
 }
 .about__img--0 {
-height: 189px;
+height: 223px;
 left: 48.5%;
-top: 31px;
-width: 197px;
+top: 20px;
+width: 208px;
 }
 .about__img--1 {
-height: 193px;
+height: 210px;
 left: 48.5%;
 top: 25px;
-width: 189px;
+width: 200px;
 }
 .about__img--2 {
-  height: 183px;
-  left: 48.5%;
-  top: 38px;
-  width: 164px;
+  height: 208px;
+left: 48.5%;
+top: 20px;
+width: 189px;
 }
 .about__img--3 {
-  height: 183px;
-  left: 48.5%;
-  top: 30px;
-  width: 186px;
+ height: 183px;
+left: 48.5%;
+top: 30px;
+width: 207px;
 }
 }
