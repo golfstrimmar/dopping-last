@@ -7545,7 +7545,14 @@
                 speed: 500,
                 slidesPerView: "auto",
                 grabCursor: !0,
+                spaceBetween: 20,
                 thumbs: { swiper: t },
+                  breakpoints: {
+                        768: {
+                          
+                            spaceBetween: 0,
+                  }
+                              },
               }),
               t = new Swiper(".slider-double2-js", {
                 slidesPerView: "auto",
