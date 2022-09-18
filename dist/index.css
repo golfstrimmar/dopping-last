@@ -3044,7 +3044,7 @@ th {
 }
 
 ._f18 {
-  font-size: 18px;
+  font-size: 17px;
 }
 
 ._f20 {
@@ -3156,7 +3156,7 @@ th {
   }
 
   ._f18 {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   ._f34 {
@@ -3190,6 +3190,12 @@ th {
 
   ._f80 {
     font-size: 60px;
+  }
+}
+
+@media (max-width: 768px){
+ ._f18 {
+    font-size: 14px!important;
   }
 }
 
@@ -14275,12 +14281,12 @@ display: block !important;
   }
 
   div .bunner__decor1 {
-    right: 0;
-    top: 23px;
-    width: 60.3vw;
-    height: 50vw;
-    max-width: 520px;
-    max-height: 432px;
+    right: 4px;
+top: 30px;
+width: 58vw;
+height: 50vw;
+max-width: 520px;
+max-height: 432px;
   }
 
   .bunner-button-group {
@@ -14407,13 +14413,13 @@ display: block !important;
 
   div .bunner__decor1 {
     right: auto;
-    left: 50%;
     -webkit-transform: translate(-50%);
     -ms-transform: translate(-50%);
     transform: translate(-50%);
     top: 220px;
     width: 311px;
     height: 244px;
+    left: 44%;
   }
   .oder-big::after {
     width: 143px;
@@ -14455,4 +14461,49 @@ display: block !important;
 /* .del .del-block {
   margin: 310px 0 0!important;
 } */
+}
+
+.bunner__bage{
+  width: 173px;
+  height: 173px;
+  position: relative;
+  position: absolute;
+bottom: 247px;
+left: 153px;
+}
+
+@media (min-width: 1025px) and (max-width: 1259px){
+.bunner__bage{
+  width: 140px;
+  height: 140px;
+bottom: 29%;
+left: 18%;;
+}
+}
+
+@media (min-width: 901px) and (max-width: 1024px){
+.bunner__bage{
+  width: 128px;
+  height: 128px;
+bottom: 28%;
+left: 21%;
+}
+}
+@media (min-width: 768px) and (max-width: 900px){
+  .bunner__bage{
+  width: 106px;
+  height: 106px;
+bottom: 29%;
+left: 19.8%;
+}
+}
+
+@media (max-width: 767px){
+   .bunner__bage{
+  width: 92px;
+  height: 92px;
+bottom: 20%;
+left: auto;
+right: 0;
+}
 }
