@@ -5079,6 +5079,7 @@ th {
     font-weight: 700;
     line-height: 16px;
     margin: 19px 0 0;
+    white-space: nowrap!important;
   }
 
   .Oder__title {
@@ -7901,6 +7902,7 @@ letter-spacing: 0.03em;
 .del .del-block__title {
   color: #fa0029;
   line-height: 26px;
+ white-space: nowrap !important;
 }
 
 .del .del-block__img {
