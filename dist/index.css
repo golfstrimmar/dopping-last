@@ -14440,13 +14440,13 @@ display: block !important;
 }
 
 @media (max-width: 320px)  {
-.size .size__img {
+/* .size .size__img {
   top: 359px!important;
-}
+} */
 .del__img {
-  top: 202px!important;
+  top: 140px!important;
 }
-.del .del-block {
+/* .del .del-block {
   margin: 310px 0 0!important;
-}
+} */
 }
