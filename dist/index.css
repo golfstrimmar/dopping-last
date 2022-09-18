@@ -6221,7 +6221,7 @@ header .header__button {
 
 div .bunner__decor1 {
   height: 726px;
-  right: 19px;
+  right: -64px;
   top: 63px;
   width: 851px;
   z-index: 400;
@@ -14221,7 +14221,7 @@ display: block !important;
 
 @media (min-width: 901px) and (max-width: 1024px) {
   div .bunner__decor1 {
-    right: -39px;
+    right: -61px;
     top: 47px;
     width: 67vw;
     height: 50vw;
@@ -14279,7 +14279,7 @@ display: block !important;
   }
 
   div .bunner__decor1 {
-    right: 4px;
+   right: -16px;
 top: 30px;
 width: 58vw;
 height: 50vw;
@@ -14484,7 +14484,7 @@ left: 18%;;
   width: 128px;
   height: 128px;
 bottom: 28%;
-left: 21%;
+left: 20.5%;
 }
 }
 @media (min-width: 768px) and (max-width: 900px){
