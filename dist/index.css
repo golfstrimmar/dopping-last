@@ -14444,8 +14444,12 @@ display: block !important;
   top: 359px!important;
 } */
 .del__img {
-  top: 112px!important;
+  top: 100px!important;
 }
+.del__text{
+  padding: 4px 0 0 0;
+}
+
 /* .del .del-block {
   margin: 310px 0 0!important;
 } */
