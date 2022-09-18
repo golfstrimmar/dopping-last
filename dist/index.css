@@ -11783,9 +11783,9 @@ linear-gradient(0deg, #FFFFFF, #FFFFFF); */
 
   .fill__button {
     margin: -6px auto 0;
-    max-width: 300px !important;
-    width: 300px !important;
-    height: 56px !important;
+max-width: 300px !important;
+width: 100% !important;
+height: 56px !important;
   }
 
   .fill__block--second {
@@ -14442,5 +14442,11 @@ display: block !important;
 @media (max-width: 320px)  {
 .size .size__img {
   top: 359px!important;
+}
+.del__img {
+  top: 202px!important;
+}
+.del .del-block {
+  margin: 310px 0 0!important;
 }
 }
