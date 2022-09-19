@@ -7491,6 +7491,7 @@
               var a = e.target;
               a.closest(".popups-init-js")
                 ? (function () {
+                  r.body.style.cssText = "overflow: hidden";
                     var e = t.querySelector(
                       a.closest(".popups-init-js").getAttribute("rel")
                     );
@@ -7511,7 +7512,7 @@
                       ++l
                     )
                       i[l].id === s && i[l].e.play();
-                    r.body.style.cssText = "overflow: hidden";
+                    
                   })()
                 : (a.matches(".popup-overlay-js") ||
                     a.closest(".popup-close-js")) &&
