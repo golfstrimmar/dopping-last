@@ -4367,6 +4367,8 @@ th {
   -ms-flex-direction: column;
   flex-direction: column;
   padding: 47px 0 0;
+  width: 100%;
+  height: 100%;
 }
 
 .Age .Call__body {
@@ -5539,13 +5541,11 @@ th {
     border-radius: 18px;
     min-height: 395px;
     width: 100%;
-     max-width: 329px;
+    max-width: 329px;
   }
 
   .Age .Call__body {
     padding: 86px 15px;
-   
-
   }
 
   .Age .Call__title {
@@ -14505,5 +14505,64 @@ overflow: hidden;
     bottom: 20%;
     left: auto;
     right: 0;
+  }
+}
+
+/* ======================================= */
+
+.Success,
+.Thanks,
+.False {
+  background: #fff;
+  border-radius: 24px;
+  height: 617px;
+  width: 100%;
+  width: 500px;
+}
+.Call__body--succsess {
+  padding: 106px 0 0 0;
+}
+.Call__body--False {
+  padding: 129px 0 0 0;
+}
+
+.Call__body--False .Call__post-title {
+  margin: 16px 0 5px;
+}
+
+@media (max-width: 900px) {
+  .Success,
+  .Thanks,
+  .False {
+    background: #fff;
+    border-radius: 24px;
+    height: 395px;
+    width: 100%;
+    max-width: 329px;
+    padding: 0 36px;
+  }
+
+  .Success .Thanks__img {
+    height: 84px;
+    width: 84px;
+    margin: 0 0 20px 0;
+  }
+  .False .Thanks__img {
+    width: 80px;
+    height: 80px;
+  }
+  .Call__body--False {
+    padding: 44px 0 0 0;
+  }
+  .False .Call__post-title {
+    margin: 22px 0 17px;
+  }
+  .False  .Call__title {
+    font-size: 21px;
+    line-height: 28px;
+    margin: 41px 0 0 0;
+  }
+  .Call__body--succsess {
+    padding: 43px 0 0 0;
   }
 }

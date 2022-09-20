@@ -7749,8 +7749,6 @@ const MyLazysource = () => {
   images.forEach((img) => {
     observer.observe(img);
   });
-
-
 };
 MyLazysource();
 
